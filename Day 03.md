@@ -4,11 +4,13 @@ Welcome to Day 3 of **Terraweek**..! Today we will dive into the word of terrafo
 And additionally explore the **Lifecycle** management. By the end of this guide, these all crucial concetps in terraform. Lets get started.
 
 ## Table of Content 
+
 - Defining & managing AWS resources using Terraform
 - Check State Files Before Running and Validate .tf File
 - Resource Dependencies and Provisioners
 - Lifecycle Management
 - Conclusion
+- 
 ## Defining & managing AWS resources using Terraform
 
 Create a Terraform configuration file to define a resource of AWS EC2 instance
@@ -18,11 +20,11 @@ Create a Terraform configuration file to define a resource of AWS EC2 instance
 [Terraform Official Website](https://www.terraform.io/downloads.html)
 
 ![Screenshot from 2023-09-13 14-50-27](https://github.com/Vedvilas/TerraWeek-Repo/assets/113783616/ed7f42a4-e838-4c9a-ba9f-c1fdd8998a20)
- Once installation done, Verify the installation using **terraform --verion**\
+ Once installation done, Verify the installation using **terraform --version**
  
  ![Screenshot from 2023-09-13 15-17-59](https://github.com/Vedvilas/TerraWeek-Repo/assets/113783616/1aa56381-86e8-4bde-9230-6c07ebe55245)
  
-## Set up the AWS Creadials
+## Set up the AWS Credentials.
 
 - Sign in to AWS Management Console.
   
@@ -30,11 +32,12 @@ Create a Terraform configuration file to define a resource of AWS EC2 instance
   
 ![Screenshot from 2023-09-13 15-15-24](https://github.com/Vedvilas/TerraWeek-Repo/assets/113783616/0e1ce5af-3f15-4999-aefe-1e5a34880610)
 
-- Create the Access key and Screate key to you User
+- Create the Access key and Secret key for your User
   
 ![Screenshot from 2023-09-13 15-22-53](https://github.com/Vedvilas/TerraWeek-Repo/assets/113783616/0011fa83-5f42-4be0-8aa9-bfbe85a9bddf)
 
 ## Create Terraform Configuration file.
+
 - Create a new directory for your Configuratuion.
 - open the terminal and navigate to your project directory.
 - Create a new file for your confuguration with .tf extention (provider.tf, Intstance.tf)
@@ -52,7 +55,7 @@ Create a Terraform configuration file to define a resource of AWS EC2 instance
 
 - Check the existing state file using terraform **state file** command.
   ![Screenshot from 2023-09-13 15-47-46](https://github.com/Vedvilas/TerraWeek-Repo/assets/113783616/058d7630-d11e-496f-9c8e-51b6ea3b7c65)
-- Now validate the terraform configuration file for finding systax errors using **terrform validate**
+- Now validate the terraform configuration file for finding syntax errors using **terrform validate**
   ![Screenshot from 2023-09-13 15-50-42](https://github.com/Vedvilas/TerraWeek-Repo/assets/113783616/11856b6d-8b54-459a-afab-3a611b30a9bd)
 - Once the validation complete for configuraion file, now you can exicute **terraform plan** and **terraform apply** command.
   ![Screenshot from 2023-09-13 15-54-26](https://github.com/Vedvilas/TerraWeek-Repo/assets/113783616/ea67f1c5-3c1f-47cb-a4ad-174b42fdbc12)
@@ -80,9 +83,12 @@ In above image, the **aws_subnet** resource depends on the **aws_vpc** resource.
 Provisioners in Terraform allow you to run scripts or perform actions on resources after they have been created or destroyed. Provisioners are useful for tasks like initializing a newly created virtual machine, configuring software, or setting up network resources.
 ![Screenshot from 2023-09-13 16-27-35](https://github.com/Vedvilas/TerraWeek-Repo/assets/113783616/da908d3c-9e0c-409f-bdeb-95c181713c5e)
 
-## Lifecycle Managment
+## Lifecycle Managment:
+
 Lifecycle management in Terraform refers to the control and management of the various stages of a resource's lifecycle, including creation, updates, and destruction. Terraform provides several mechanisms to define how resources should be managed throughout their lifecycle.
+
 #### create before destroy:
+
 This hook ensures that a new resource is created before the old one is destroyed during an update. This can be useful for zero-downtime deployments or to prevent resource destruction until a replacement is available.
 
 #### prevent destroy:
