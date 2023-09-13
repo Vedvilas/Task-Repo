@@ -10,7 +10,7 @@ And additionally explore the **Lifecycle** management. By the end of this guide,
 - Resource Dependencies and Provisioners
 - Lifecycle Management
 - Conclusion
-- 
+  
 ## Defining & managing AWS resources using Terraform
 
 Create a Terraform configuration file to define a resource of AWS EC2 instance
