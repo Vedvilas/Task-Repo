@@ -7,7 +7,7 @@ And additionally explore the **Lifecycle** management. By the end of this guide,
 - Defining & managing AWS resources using Terraform
 - Check State Files Before Running and Validate .tf File
 - Resource Dependencies and Provisioners
-- Lifecycle Managment
+- Lifecycle Management
 - Conclusion
 ## Defining & managing AWS resources using Terraform
 
