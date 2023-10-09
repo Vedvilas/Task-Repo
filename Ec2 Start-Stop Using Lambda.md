@@ -1,4 +1,4 @@
-# Create the schedule for the start/stop AWS EC2 instances using the lambda function.
+# Create the schedule for the start and stop AWS EC2 instance using the lambda function.
 
 ## Introduction: 
 
