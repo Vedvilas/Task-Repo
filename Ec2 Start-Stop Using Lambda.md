@@ -6,12 +6,13 @@ In today's dynamic cloud computing landscape, optimizing costs is paramount. For
 we will explore the key steps to design a customized schedule tailored to your organization’s specific requirements. By the end of this discussion, you will have a clear understanding of how to implement an automated and efficient system that maximizes cost savings while maintaining the agility and flexibility that AWS is renowned for.
 
 
+
+
 ### Step-1 : Login into Aws Console With Admin Access.
+
 <img width="1300" alt="image" src="https://github.com/Vedvilas/Task-Repo/assets/113783616/02f97f1b-8f39-4ab7-8eb5-e962a485ad85">
 
-
 ### Step-2 : Create an EC2 Instance.
-
 - Go to Ec2 Console, Click on Launch Instance and Provice the required details.
  <img width="1300" alt="image" src="https://github.com/Vedvilas/Task-Repo/assets/113783616/104b6ffe-d4af-4ed6-b511-99465f28ba19">
 
