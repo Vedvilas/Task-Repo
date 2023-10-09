@@ -1,4 +1,4 @@
-# Creating a schedule for STOP/START the AWS EC2 instances as per the required time frame for the cost optimisation perspective.
+# Create the schedule for the start/stop AWS EC2 instances using the lambda function.
 
 ## Introduction: 
 
@@ -15,7 +15,7 @@ we will explore the key steps to design a customized schedule tailored to your o
 - Go to Ec2 Console, Click on Launch Instance and Provice the required details.
  <img width="1300" alt="image" src="https://github.com/Vedvilas/Task-Repo/assets/113783616/104b6ffe-d4af-4ed6-b511-99465f28ba19">
 
-- Here our instance is ready.  
+- Here our instance is ready.
  <img width="1300" alt="image" src="https://github.com/Vedvilas/Task-Repo/assets/113783616/e803058d-a17d-4eef-ab7e-68bc394cf811">
 
 
