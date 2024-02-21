@@ -13,7 +13,7 @@ we will explore the key steps to design a customized schedule tailored to your o
 <img width="1300" alt="image" src="https://github.com/Vedvilas/Task-Repo/assets/113783616/02f97f1b-8f39-4ab7-8eb5-e962a485ad85">
 
 ### Step-2 : Create an EC2 Instance.
-- Go to Ec2 Console, Click on Launch Instance and Provice the required details.
+- Go to Ec2 Console, Click on Launch Instance and Provide the required details.
  <img width="1300" alt="image" src="https://github.com/Vedvilas/Task-Repo/assets/113783616/104b6ffe-d4af-4ed6-b511-99465f28ba19">
 
 - Here our instance is ready.
