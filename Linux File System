@@ -1,1 +1,6 @@
-# What is Linux System and How its works
+# Create the schedule for the start and stop AWS EC2 instance using the lambda function.
+
+## Introduction: 
+
+In today's dynamic cloud computing landscape, optimizing costs is paramount. For businesses relying on Amazon Web Services (AWS), effective cost management involves more than just monitoring usage—it requires proactive strategies. One such strategy involves intelligently scheduling the operation of AWS EC2 instances. By stopping instances during non-operational hours and starting them when needed, significant cost savings can be achieved without compromising operational efficiency.
+we will explore the key steps to design a customized schedule tailored to your organization’s specific requirements. By the end of this discussion, you will have a clear understanding of how to implement an automated and efficient system that maximizes cost savings while maintaining the agility and flexibility that AWS is renowned for.
