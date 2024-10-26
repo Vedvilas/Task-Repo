@@ -1,0 +1,18 @@
+# Successful Request: Code 200
+
+## Errors at Client side.
+
+# Unsuccessful at client side: 4xx Code
+# Bad Request: Error 400
+# Unauthorized: Error 401
+# Forbidden: Error 403
+# Client closed connection : Error 460
+
+## Errors at Server side
+
+# Unsuccessful at server side: 5xx code
+# Internal server error: 500 ( Error on the Load balancer itself)
+# Bad Gateway: Error 502
+# Service Unavailable: Error 502
+# Gateway timeout: Error 504 (This might be an issue with the Server)
+# Unauthorized: Error 562
